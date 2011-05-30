@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F48DBE2013935E3B0087CD02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48DBE1F13935E3B0087CD02 /* UIKit.framework */; };
+		F48DBE2213935E3B0087CD02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48DBE2113935E3B0087CD02 /* Foundation.framework */; };
+		F48DBE2413935E3B0087CD02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F48DBE2313935E3B0087CD02 /* CoreGraphics.framework */; };
+		F48DBE2A13935E3B0087CD02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F48DBE2813935E3B0087CD02 /* InfoPlist.strings */; };
+		F48DBE2D13935E3B0087CD02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48DBE2C13935E3B0087CD02 /* main.m */; };
+		F48DBE3013935E3B0087CD02 /* SBTableAlertDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48DBE2F13935E3B0087CD02 /* SBTableAlertDemoAppDelegate.m */; };
+		F48DBE3313935E3B0087CD02 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48DBE3113935E3B0087CD02 /* MainWindow.xib */; };
+		F48DBE3613935E3B0087CD02 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48DBE3513935E3B0087CD02 /* RootViewController.m */; };
+		F48DBE3913935E3B0087CD02 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F48DBE3713935E3B0087CD02 /* RootViewController.xib */; };
+		F48DBE49139361E60087CD02 /* SBTableAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F48DBE48139361E60087CD02 /* SBTableAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F48DBE1B13935E3B0087CD02 /* SBTableAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBTableAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48DBE1F13935E3B0087CD02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F48DBE2113935E3B0087CD02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F48DBE2313935E3B0087CD02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F48DBE2713935E3B0087CD02 /* SBTableAlertDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBTableAlertDemo-Info.plist"; sourceTree = "<group>"; };
+		F48DBE2913935E3B0087CD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F48DBE2B13935E3B0087CD02 /* SBTableAlertDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBTableAlertDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F48DBE2C13935E3B0087CD02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F48DBE2E13935E3B0087CD02 /* SBTableAlertDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBTableAlertDemoAppDelegate.h; sourceTree = "<group>"; };
+		F48DBE2F13935E3B0087CD02 /* SBTableAlertDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBTableAlertDemoAppDelegate.m; sourceTree = "<group>"; };
+		F48DBE3213935E3B0087CD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F48DBE3413935E3B0087CD02 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F48DBE3513935E3B0087CD02 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F48DBE3813935E3B0087CD02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		F48DBE47139361E60087CD02 /* SBTableAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBTableAlert.h; path = ../../SBTableAlert.h; sourceTree = "<group>"; };
+		F48DBE48139361E60087CD02 /* SBTableAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBTableAlert.m; path = ../../SBTableAlert.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F48DBE1813935E3B0087CD02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48DBE2013935E3B0087CD02 /* UIKit.framework in Frameworks */,
+				F48DBE2213935E3B0087CD02 /* Foundation.framework in Frameworks */,
+				F48DBE2413935E3B0087CD02 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F48DBE1013935E3B0087CD02 = {
+			isa = PBXGroup;
+			children = (
+				F48DBE2513935E3B0087CD02 /* SBTableAlertDemo */,
+				F48DBE1E13935E3B0087CD02 /* Frameworks */,
+				F48DBE1C13935E3B0087CD02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F48DBE1C13935E3B0087CD02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48DBE1B13935E3B0087CD02 /* SBTableAlertDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48DBE1E13935E3B0087CD02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F48DBE1F13935E3B0087CD02 /* UIKit.framework */,
+				F48DBE2113935E3B0087CD02 /* Foundation.framework */,
+				F48DBE2313935E3B0087CD02 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F48DBE2513935E3B0087CD02 /* SBTableAlertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F48DBE47139361E60087CD02 /* SBTableAlert.h */,
+				F48DBE48139361E60087CD02 /* SBTableAlert.m */,
+				F48DBE2E13935E3B0087CD02 /* SBTableAlertDemoAppDelegate.h */,
+				F48DBE2F13935E3B0087CD02 /* SBTableAlertDemoAppDelegate.m */,
+				F48DBE3113935E3B0087CD02 /* MainWindow.xib */,
+				F48DBE3413935E3B0087CD02 /* RootViewController.h */,
+				F48DBE3513935E3B0087CD02 /* RootViewController.m */,
+				F48DBE3713935E3B0087CD02 /* RootViewController.xib */,
+				F48DBE2613935E3B0087CD02 /* Supporting Files */,
+			);
+			path = SBTableAlertDemo;
+			sourceTree = "<group>";
+		};
+		F48DBE2613935E3B0087CD02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F48DBE2713935E3B0087CD02 /* SBTableAlertDemo-Info.plist */,
+				F48DBE2813935E3B0087CD02 /* InfoPlist.strings */,
+				F48DBE2B13935E3B0087CD02 /* SBTableAlertDemo-Prefix.pch */,
+				F48DBE2C13935E3B0087CD02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F48DBE1A13935E3B0087CD02 /* SBTableAlertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48DBE3C13935E3B0087CD02 /* Build configuration list for PBXNativeTarget "SBTableAlertDemo" */;
+			buildPhases = (
+				F48DBE1713935E3B0087CD02 /* Sources */,
+				F48DBE1813935E3B0087CD02 /* Frameworks */,
+				F48DBE1913935E3B0087CD02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBTableAlertDemo;
+			productName = SBTableAlertDemo;
+			productReference = F48DBE1B13935E3B0087CD02 /* SBTableAlertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48DBE1213935E3B0087CD02 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F48DBE1513935E3B0087CD02 /* Build configuration list for PBXProject "SBTableAlertDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F48DBE1013935E3B0087CD02;
+			productRefGroup = F48DBE1C13935E3B0087CD02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F48DBE1A13935E3B0087CD02 /* SBTableAlertDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F48DBE1913935E3B0087CD02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48DBE2A13935E3B0087CD02 /* InfoPlist.strings in Resources */,
+				F48DBE3313935E3B0087CD02 /* MainWindow.xib in Resources */,
+				F48DBE3913935E3B0087CD02 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F48DBE1713935E3B0087CD02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48DBE2D13935E3B0087CD02 /* main.m in Sources */,
+				F48DBE3013935E3B0087CD02 /* SBTableAlertDemoAppDelegate.m in Sources */,
+				F48DBE3613935E3B0087CD02 /* RootViewController.m in Sources */,
+				F48DBE49139361E60087CD02 /* SBTableAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F48DBE2813935E3B0087CD02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48DBE2913935E3B0087CD02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F48DBE3113935E3B0087CD02 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48DBE3213935E3B0087CD02 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F48DBE3713935E3B0087CD02 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48DBE3813935E3B0087CD02 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F48DBE3A13935E3B0087CD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F48DBE3B13935E3B0087CD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F48DBE3D13935E3B0087CD02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBTableAlertDemo/SBTableAlertDemo-Prefix.pch";
+				INFOPLIST_FILE = "SBTableAlertDemo/SBTableAlertDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F48DBE3E13935E3B0087CD02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBTableAlertDemo/SBTableAlertDemo-Prefix.pch";
+				INFOPLIST_FILE = "SBTableAlertDemo/SBTableAlertDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F48DBE1513935E3B0087CD02 /* Build configuration list for PBXProject "SBTableAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48DBE3A13935E3B0087CD02 /* Debug */,
+				F48DBE3B13935E3B0087CD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48DBE3C13935E3B0087CD02 /* Build configuration list for PBXNativeTarget "SBTableAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48DBE3D13935E3B0087CD02 /* Debug */,
+				F48DBE3E13935E3B0087CD02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F48DBE1213935E3B0087CD02 /* Project object */;
+}
