@@ -69,6 +69,7 @@
 #pragma mark -
 
 - (void)show {
+	[_tableView reloadData];
 	[_alertView show];
 }
 
